@@ -11,15 +11,15 @@ const Homepage = () => {
                 <div></div>
                 <aside className="first-section-info">
                     <div className="first-section-info-text">
-                        <h2>Welcome to Udemy</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <h2>Welcome to UpSkill</h2>
+                        <p>Path to Success</p>
                         <Link to='/dashboard'><Button color="info">Browse Courses</Button>{' '}</Link>
                     </div>
                 </aside>
             </section>
             <section className="second-section">
                 <div className='second-section-info'>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, exercitationem numquam. Recusandae deserunt sint cumque, quam itaque doloribus nesciunt soluta?</p>
+                    <p></p>
                 </div>
             </section>
             <section className="third-section">
@@ -51,8 +51,8 @@ const Homepage = () => {
             <section className="fourth-section">
                     <aside className="fourth-section-info">
                         <div className="fourth-section-info-text">
-                            <h2>Upload to Udemy</h2>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <h2>Upload to Upskill</h2>
+                            <p>Path to Success</p>
                             <Link to='/uploadCourse'><Button style={{ width : '150px', padding : '10px' }} color='info'>Upload</Button>{' '}</Link>
                         </div>
                     </aside>
@@ -62,8 +62,8 @@ const Homepage = () => {
             </section>
             <footer className="footer-section">
                 <div className="footer-section-info">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, cumque. Blanditiis, quam.</p>
+                    <p></p>
+                    <p></p>
                 </div>
             </footer>
         </div>

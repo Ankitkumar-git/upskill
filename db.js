@@ -1,7 +1,7 @@
 const { connect } = require('mongoose')
 const { MONGO_URI, MONGO_PASS } = process.env
 
-connect(MONGO_URI.replace('<password>', MONGO_PASS), {
+connect("mongodb://0.0.0.0:27017/udemy-clone", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,

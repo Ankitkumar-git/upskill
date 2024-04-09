@@ -36,7 +36,7 @@ const Navtopbar = (props) => {
     <div className="main">
       <Navbar className="navbar-custom" color="light" light expand="md">
         <Link to='/'>
-          <NavbarBrand>Udemy</NavbarBrand>
+          <NavbarBrand>Upskill</NavbarBrand>
         </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
